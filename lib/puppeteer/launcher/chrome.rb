@@ -236,10 +236,11 @@ module Puppeteer::Launcher
         'msedge' => '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
       },
       linux: {
-        'chrome' => '/opt/google/chrome/chrome',
+        'chrome' => '/app/.apt/usr/bin/google-chrome',
         'chrome-beta' => '/opt/google/chrome-beta/chrome',
         'chrome-dev' => '/opt/google/chrome-unstable/chrome',
       },
+      #'chrome' => '/opt/google/chrome/chrome',
     }.freeze
 
     # @param channel [String]
