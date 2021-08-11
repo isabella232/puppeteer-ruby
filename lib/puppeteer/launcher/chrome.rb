@@ -236,7 +236,7 @@ module Puppeteer::Launcher
         'msedge' => '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
       },
       linux: {
-        'chrome' => '/app/.apt/usr/bin/google-chrome',
+        'chrome' => '/app/.apt/opt/google/chrome/chrome',
         'chrome-beta' => '/opt/google/chrome-beta/chrome',
         'chrome-dev' => '/opt/google/chrome-unstable/chrome',
       },
